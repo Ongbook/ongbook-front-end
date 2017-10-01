@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt" ng-app="ongbook">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base href="/">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/sb-admin-2.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/fullpage.js/jquery.fullPage.css">
+  
+
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  
+  
+  <title>Ongbook</title>
+
+
+</head>
+<body>  
+  <div ui-view></ui-view>  
+
+  <script src="./node_modules/angular/angular.min.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script> 
+  <script src="./node_modules/fullpage.js/vendors/jquery.slimscroll.min.js"></script> 
+  <script src="./node_modules/fullpage.js/jquery.fullPage.js"></script> 
+  <script src="./node_modules/angular-fullpage.js/angular-fullpage.min.js"></script> 
+  
+  <script src="./src/ongbook.js"></script>
+  <script src="./src/route.js"></script>
+  <script src="./src/controllers/institutional/institutionalController.js"></script>
+  <script src="./src/directives/maps/maps.js"></script>
+
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6MHUMDM2dDcyv29x9Bfk90lDJLtfGSKM"></script>
+</body>
+
+
+</html>

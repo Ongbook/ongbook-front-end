@@ -1,0 +1,149 @@
+<header>
+  <nav id="institutional-navbar" class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" data-menuanchor="map" href="#map">
+                <img src="assets/img/logo.png" alt="logo ongbook" />
+            </a>
+            <a class="navbar-brand" id="ongbook-title" data-menuanchor="partners" href="#partners">
+              Ongbook
+            </a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li data-menuanchor="ngo-owner">
+                <a href="#ngo-owner">
+                  Atua em alguma ONG?
+                </a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li data-menuanchor="whant-and-make">
+                <a href="#whant-and-make">O que</a>
+              </li>
+              <li data-menuanchor="support">
+                <a href="#support">
+                  Apoie
+                </a>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                  <b> Para Entidades </b>
+                  <span class="caret"></span>
+                </a>
+                <ul id="login-dp" class="dropdown-menu">
+                  <li>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h4 class="text-center">Entrar utilizando</h4>
+                        <div class="social-buttons">
+                          <a (click)="fbLogin()" class="btn btn-fb">
+                            <i class="fa fa-facebook"></i>
+                              Facebook
+                          </a>
+                          <a (click)="printUserInfo()" class="btn btn-tw">
+                            <i class="fa fa-twitter"></i>
+                              Twitter
+                          </a>
+                        </div>
+                        <span class="text-center">
+                          OU
+                        </span>
+                        <div class="form-group">
+                          <a href="login">
+                            <button type="submit" class="btn btn-primary btn-block">
+                              Entrar
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="bottom text-center">
+                        Não tem uma conta? 
+                        <a ng-click="vm.register()">
+                          <b id="lk-signup">
+                            Crie uma!
+                          </b>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+<div class="col-md-12" style="background:white">
+  <div class="container">
+    <section>
+      <div id="maps" maps></div>
+    </section>
+  </div>  
+</div>
+<footer class="row">
+    <div class="col-md-7 informations">
+      <p>
+        <strong> Ongbook.org </strong> - Catálogo de Entidades Sociais e suas Necessidades - CNPJ: 23.421.441/0001­-62
+        <br/>
+        <address>
+            Av. Augusto Emílio Estelita Lins, 501 - Jardim Camburi - Vitória-ES / Cep: 29.090-590
+        </address>
+        <br/>
+        <a href="tel:2731451212">
+          (27) 3145-1212
+        </a>
+        -
+        <a href="mailto:contato@ongbook.org">
+          contato@ongbook.org
+        </a> 
+      </p>
+    </div>
+    <div class="col-md-1">                      
+      <a href="http://central.ongbook.org" target="_blank" title="Central - Institucional">
+        <img src="../../assets/img/logo.png">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <div class="input-group input-group-sm">
+        <input type="text" class="form-control" placeholder="Assine nossa newsletter. ❣ ☮ ❥">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button">
+            Inscrever!
+          </button>
+        </span>
+      </div>
+      <nav>
+        <a href="http://facebook.com/Ongbook" title="Facebook" target="_blank">
+          <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://github.com/Ongbook" title="Github" target="_blank">
+          <i class="fa fa-github-alt fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://instagram.com/Ongbook" title="Instagram" target="_blank">
+          <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCGdmvXlSwUD9DZYKAaoCR2g" title="Youtube" target="_blank">
+          <i class="fa fa-youtube-play fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://linkedin.com/company/ongbook" title="Linkedin" target="_blank">
+          <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://trello.com/ongbook" title="Trello" target="_blank">
+          <i class="fa fa-trello fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://ongbook.slack.com" title="Slack" target="_blank">
+          <i class="fa fa-slack fa-1x" aria-hidden="true"></i>
+        </a>
+        <a href="http://twitter.com/_Ongbook" title="Twitter" target="_blank">
+          <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+</footer>
