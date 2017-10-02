@@ -4,7 +4,6 @@
   "description": "Catálogo de Entidades",
   "main": "src/ongbook.js",
   "scripts": {
-    "test": "./node_modules/.bin/eslint src/*.js",
     "start": "./node_modules/.bin/nodemon server.js",
     "build": "./node_modules/.bin/gulp *.js"
   },
