@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Ongbook/ongbook-front-end.svg?branch=develop)](https://travis-ci.org/Ongbook/ongbook-front-end)
+
 # Ongbook
 
 Catálogo de entidades sociais com o objetivo de diminuir a distância entre entidades do terceiro setor e volutáriado.
