@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Ongbook/ongbook-front-end.svg?branch=develop)](https://travis-ci.org/Ongbook/ongbook-front-end)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 # Ongbook
 
 Catálogo de entidades sociais com o objetivo de diminuir a distância entre entidades do terceiro setor e volutáriado.
@@ -29,11 +32,10 @@ Instale as dependências do projeto através do npm:
 $ npm install
 ```
 
-Para você rodar o projeto em um navegador, você deve utilizar
-um servidor local, como sugestão utilizamos o [http-server](https://www.npmjs.com/package/http-server), para utilizar basta rodar o comando de inicilização na pasta do projeto:
+Para você rodar o projeto em um navegador basta utilizar:
 
 ```
-$ http-server -p 8081
+$ npm start
 ```
  Você pode alterar a porta conforme sua necessidade.
 
@@ -41,11 +43,11 @@ $ http-server -p 8081
 
 Para os testes unitários, estamos utilizando o [Mocha](https://mochajs.org), [Chai](http://chaijs.com/) e [Sinon](http://sinonjs.org/) com a metodologia do [TDD](https://pt.wikipedia.org/wiki/Test_Driven_Development).
 
-### Para rodar os testes basta utilizar:
+<!-- ### Para rodar os testes basta utilizar:
 
 ```
 $ npm test
-```
+``` -->
 
 <!-- ### And coding style tests
 
