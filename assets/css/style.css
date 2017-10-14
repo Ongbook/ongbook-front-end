@@ -1,5 +1,8 @@
 @CHARSET "ISO-8859-1";
 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Fjalla+One|Hammersmith+One|Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 @media (max-width: 991px){
   
   #footer img{
@@ -26,10 +29,37 @@
   #institutional-navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #9cb0c4;
     background-color: #2d4052;
+    padding: 15px;
   }
   #ongbook-title{
     padding-left: 0px;
   }
+  .cards_ajuda {
+    margin-bottom: 20px;
+  }
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .cards_ajuda {
+    margin-bottom: 20px;
+  }
+  #tresPassos {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  body[data-hijacking="on"] {
+    overflow: hidden;
+  }
+}
+
+.cd-section {
+  height: 100vh;
 }
 
 #search {
@@ -131,6 +161,8 @@
 #institutional-navbar {
   background-color: #43607d;
   border: none;
+  padding: 10px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.15);
 }
 #institutional-navbar .navbar-brand {
   color: #f7fbff;
@@ -183,7 +215,7 @@
 }
 
 .navbar-brand img{
-  margin-top: -11px;
+  margin-top: -18px;
   height: 56px;
 }
 
@@ -259,16 +291,254 @@
   cursor: pointer;
 }
 
+/* CUSTOMIZAÇÃO PARA A SESSÃO MAPA - HEADER */
 #maps {
-  height: 400px;
   width: 100%;
+  padding-top: 75px;
+  padding-bottom: 138px;
+  background: url(http://localhost:8080/assets/img/maps_home.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#maps .big_text_maps {
+  font-size: 3em;
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  color: #767676;
+}
+
+#maps .big_text_maps h1 {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#maps .big_text_maps h1 {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#maps .big_text_maps address {
+  font-size: 0.5em;
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  color: #767676;
+}
+
+#maps .big_text_maps button {
+  background-color: #43607d !important;
+  border-color: #43607d !important;
+}
+
+#maps .big_text_maps button span {
+  color: #fff;
+}
+/* END */
+
+/* CUSTOMIZAÇÃO PARA A SESSÃO 2 */
+#section_2 {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 65px;
+  background: #fff;
+}
+
+#section_2 h1 {
+  color: #767676;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-bottom: 40px;
+}
+
+#section_2 address {
+  color: #767676;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+#section_2 address span {
+  color: #70c0bd;
+  font-size: 1em;
+}
+
+#section_2 h1 i {
+  vertical-align: middle;
+}
+
+#section_2 .block_2 h1 {
+  margin-bottom: 0;
+}
+
+#section_2 .block_2 ul {
+  list-style: none;
+}
+
+.padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.font-11 {
+  font-size: 11px !important;   
+}
+
+.font-12 {
+  font-size: 12px !important;   
+}
+
+/* VIDEO */
+.ongBook-responsive-embed { 
+  position: relative; 
+  height: 285px; 
+  overflow: hidden; 
+  padding-top: 0; 
+  padding-left: 0; 
+  padding-right: 0; 
+}
+  
+.ongBook-responsive-embed iframe, 
+.ongBook-responsive-embed object, 
+.ongBook-responsive-embed embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  border: 0; 
+}
+/* END */
+
+/* SESSÃO FRASE */
+#section_frase {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+#section_frase h3 {
+  font-family: 'Courgette', cursive;
+  color: #607d8b;
+  margin-bottom: 0;
+}
+/* END */
+
+/* CUSTOMIZAÇÃO PARA A SESSÃO 4 */
+#section_4 {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 125px;
+  background: #43607d;
+}
+
+#section_4 h1 {
+  color: #fff;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+#section_4 .cards_ajuda i.usdIcon {
+  position: absolute;
+  right: 149px;
+  margin: 62px 18px;
+  color: #fff;
+  font-size: 80px;
+}
+
+#section_4 hr {
+  margin-top: 10px !important;;
+  margin-bottom: 10px !important;;
+  border: 0 !important;;
+  border-top: 1px solid #e6e6e6 !important;;
+}
+
+#section_4 h2 {
+  color: #fff;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-align: center;
+}
+
+#section_4 .cards_ajuda {
+  background: #f5f5f5; 
+  padding: 10px;
+  color: #fff;
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  outline: 6px transparent dotted;
+  outline-offset: 10px;
+  -webkit-transition: outline 0.5s; /* Safari */
+  transition: outline 0.5s;
+}
+
+#section_4 .cards_ajuda:hover {
+  outline: 3px #f5f5f5 solid;
+  outline-offset: 10px;
+}
+
+#section_4 .cards_ajuda span {
+  color: #767676;
+  font-size: 1.1em;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+#section_4 .cards_ajuda i {
+  color: #43607d;
+  margin-top: 25px;
+  font-size: 11em;
+}
+
+#section_4 .cards_ajuda button {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.5em;
+}
+/* END */
+
+#section_5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#section_5 h1 {
+  color: #767676;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-bottom: 0;
+}
+
+#section_5 h3 {
+  color: #fff;
+  font-family: 'Hammersmith One', sans-serif;
+  /* margin-bottom: 0; */
+}
+
+#section_5 .cadOng {
+  background: #607d8b;
+  padding: 50px;
+  height: 400px;
+}
+
+#section_5 .cadOng input {
+  height: 60px;
+}
+
+#section_5 .cadOng button {
+  background: #ffcc00;
+  height: 60px;
+  font-size: 20px;
+}
+
+#section_5 .cadOng button i {
+  font-size: 22px;
 }
 
 /* Footer */
-
 footer {
   background-color: #16222d;
-  text-align: left;
+  position: absolute;
+  bottom: 0;
 }
 
 footer p,address,span {
