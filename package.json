@@ -5,7 +5,8 @@
   "main": "src/ongbook.js",
   "scripts": {
     "start": "./node_modules/.bin/node server.js",
-    "build": "./node_modules/.bin/gulp *.js"
+    "build": "./node_modules/.bin/gulp *.js",
+    "test": "./node_modules/.bin/mocha test"
   },
   "keywords": [
     "ongbook",
@@ -29,6 +30,9 @@
   },
   "dependencies": {
     "angular": "^1.6.6",
+    "angular-animate": "^1.6.6",
+    "angular-touch": "^1.6.6",
+    "angular-ui-bootstrap": "^2.5.3",
     "angular-ui-router": "^1.0.3",
     "angularjs-toaster": "^2.2.0",
     "bootstrap": "^3.3.7",
