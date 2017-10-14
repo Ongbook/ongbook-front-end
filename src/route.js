@@ -3,8 +3,10 @@
 
 	angular
     .module('ongbook')
-    .config(['$stateProvider', '$urlRouterProvider','$locationProvider','$qProvider',function ($stateProvider,$urlRouterProvider,$locationProvider,$qProvider) {
-      // $locationProvider.html5Mode(true);
+    .config(['$stateProvider', '$urlRouterProvider','$locationProvider',function ($stateProvider,$urlRouterProvider,$locationProvider) {
+      $locationProvider.html5Mode(true);  
+      // console.log($urlRouterProvider.otherwise);
+      
       $stateProvider
         .state('/', {
           url: '/',
@@ -14,14 +16,13 @@
         })
         .state('login', {
           url: '/login',
-          templateUrl:'././views/login/login.html',
-          controller: 'institutionalController',
-          controllerAs:'vm'
+          templateUrl:'././views/login/login.html'
         })
         .state('dashboard', {
           url: '/dashboard',
           templateUrl:'././views/dashboard/dashboard.html'
         });
         $urlRouterProvider.otherwise('/');
+        console.log('hehe');
     }])
 })();

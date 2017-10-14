@@ -86,7 +86,7 @@ Veja nossa [lista de contribuidores](https://github.com/your/project/contributor
 
 ## Licença
 
-Optamos por utilizar a licença do  [MIT License](https://opensource.org/licenses/MIT) - [LICENSE.md](LICENSE.md) file for details
+Optamos por utilizar a licença do  [MIT License](https://opensource.org/licenses/MIT) - [LICENSE.md](LICENSE.md) para detalhes.
 
 ## Para tirar dúvidas sobre o projeto e sobre formas de contribuição, disponibilizamos dos seguintes canais:
 

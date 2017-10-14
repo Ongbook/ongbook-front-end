@@ -7,9 +7,6 @@
 
   angular.module('ongbook',[
     'ui.router',
-    'ngAnimate',
-    'ngTouch',
-    'ui.bootstrap',
     'ongbook.controllers',
     'ongbook.directives'
   ]);
