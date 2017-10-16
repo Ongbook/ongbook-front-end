@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Ongbook/ongbook-front-end.svg?branch=develop)](https://travis-ci.org/Ongbook/ongbook-front-end)
+[![Coverage Status](https://coveralls.io/repos/github/Ongbook/ongbook-front-end/badge.svg?branch=master)](https://coveralls.io/github/Ongbook/ongbook-front-end?branch=master)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 # Ongbook

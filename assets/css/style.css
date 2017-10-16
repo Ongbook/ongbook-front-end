@@ -296,7 +296,7 @@
   width: 100%;
   padding-top: 75px;
   padding-bottom: 185px;
-  background: url(http://localhost:8080/assets/img/maps_home.jpg);
+  background: url(http://res.cloudinary.com/dr26yn9mp/image/upload/v1508126991/maps_home_ikrabz.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -516,7 +516,7 @@
 
 #section_5 .cadOng {
   background: #607d8b;
-  padding: 50px;
+  padding: 26px;
   height: 400px;
 }
 

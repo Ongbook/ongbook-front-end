@@ -1,9 +1,9 @@
-(function () {
-	'use strict';
+// (function () {
+// 	'use strict';
 
-	angular
-		.module('ongbook')
-		.constant('config',{
-      apiUrl:'https://ongbook-api-strapi-dev.herokuapp.com/'   
-		});
-})();
+// 	angular
+// 		.module('ongbook')
+// 		.constant('config',{
+//       apiUrl:'https://ongbook-api-strapi-dev.herokuapp.com/'   
+// 		});
+// })();
