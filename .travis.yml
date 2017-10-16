@@ -7,9 +7,9 @@ before_install:
 - npm i -g npm@3.10.9
 install: 
 - npm install
-- npm install -g codecov
+- npm install -g codecov istanbul
 script:
-  - ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R 'tests/**/*.js'
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly --recursive tests/**/*.js
   - codecov
 after_success:
   - npm run coverage
