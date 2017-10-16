@@ -4,11 +4,9 @@
 	angular
     .module('ongbook')
     .config(['$stateProvider', '$urlRouterProvider','$locationProvider',function ($stateProvider,$urlRouterProvider,$locationProvider) {
-      $locationProvider.html5Mode(true);  
-      // console.log($urlRouterProvider.otherwise);
-      
+      // $locationProvider.html5Mode(true);
       $stateProvider
-        .state('/', {
+        .state('institutional', {
           url: '/',
           templateUrl:'././views/ongbook/ongbook.html',
           controller: 'institutionalController',
@@ -23,6 +21,5 @@
           templateUrl:'././views/dashboard/dashboard.html'
         });
         $urlRouterProvider.otherwise('/');
-        console.log('hehe');
     }])
 })();

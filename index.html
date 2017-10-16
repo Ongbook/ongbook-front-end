@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/sb-admin-2.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="node_modules/fullpage.js/jquery.fullPage.css">
+  <link rel="stylesheet" href="node_modules/angularjs-toaster/toaster.min.css">
   
 
   <link rel="icon" type="image/png" href="assets/img/logo.png">
@@ -21,19 +21,23 @@
 
 </head>
 <body>  
+  <toaster-container></toaster-container>
   <div ui-view></ui-view>  
 
   <script src="./node_modules/angular/angular.min.js"></script>
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script> 
-  <script src="./node_modules/fullpage.js/vendors/jquery.slimscroll.min.js"></script> 
-  <script src="./node_modules/fullpage.js/jquery.fullPage.js"></script> 
-  <script src="./node_modules/angular-fullpage.js/angular-fullpage.min.js"></script> 
-  
+  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="./node_modules/angular-ui-bootstrap/dist/ui-bootstrap-2.0.0-SNAPSHOT.min.js"></script>
+  <script src="./node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls-2.0.0-SNAPSHOT.min.js"></script>  
+  <script src="./node_modules/angular-animate/angular-animate.min.js"></script>
+  <script src="./node_modules/angular-touch/angular-touch.min.js"></script>
+  <script src="./node_modules/angularjs-toaster/toaster.min.js"></script>
+    
   <script src="./src/ongbook.js"></script>
   <script src="./src/route.js"></script>
   <script src="./src/controllers/institutional/institutionalController.js"></script>
+  <script src="./src/services/register/registerServiceApi.js"></script>
   <script src="./src/directives/maps/maps.js"></script>
 
   <script type="text/javascript"

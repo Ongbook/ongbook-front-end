@@ -3,8 +3,7 @@
 
 	angular
 		.module('ongbook')
-		.value('config',{
-			//TODO: Mover para o config do Angular
+		.constant('config',{
       apiUrl:'https://ongbook-api-strapi-dev.herokuapp.com/'   
 		});
 })();

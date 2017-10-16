@@ -1,7 +1,7 @@
 (function(){
   'use strict;'
   angular
-  .module('ongbook.directives')
+  .module('ongbook')
   .directive('maps',function () {
     return {
       restrict:'E',
