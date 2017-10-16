@@ -5,7 +5,12 @@ node_js:
 - 6.9.2
 before_install:
 - npm i -g npm@3.10.9
-install: npm install
+install: 
+- npm install
+- npm install -g codecov
+script:
+  - ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R 'tests/**/*.js'
+  - codecov
 after_success:
   - npm run coverage
   - npm run report-coverage
