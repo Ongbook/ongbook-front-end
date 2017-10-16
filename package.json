@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/node server.js",
     "build": "./node_modules/.bin/gulp *.js",
-    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --reporter ./node_modules/mocha-lcov-reporter/lib/lcov.js -- -R tests/**/*.js",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly --recursive tests/**/*.js",
     "report-coverage": "codecov",
     "test": "./node_modules/.bin/mocha tests --recursive"
   },
