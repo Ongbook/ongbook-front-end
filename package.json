@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/node server.js",
     "build": "./node_modules/.bin/gulp *.js",
-    "test": "./node_modules/.bin/mocha tests"
+    "test": "./node_modules/.bin/mocha tests --recursive"
   },
   "keywords": [
     "ongbook",
@@ -36,7 +36,6 @@
     "angular-ui-router": "^1.0.3",
     "angularjs-toaster": "^2.2.0",
     "bootstrap": "^3.3.7",
-    "http-server": "^0.10.0",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4"
   },

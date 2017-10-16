@@ -27,10 +27,10 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li data-menuanchor="whant-and-make">
-            <a href="#section_2">O que fazemos</a>
+            <a href="#!/#section_2">O que fazemos</a>
           </li>
           <li data-menuanchor="support">
-            <a href="#section_4">
+            <a href="#!/#section_4">
                   Apoie
                 </a>
           </li>
@@ -45,33 +45,33 @@
                   <div class="col-md-12">
                     <h4 class="text-center">Entrar utilizando</h4>
                     <div class="social-buttons">
-                      <a class="btn btn-fb">
-                        <i class="fa fa-facebook"></i>
-                          Facebook
-                      </a>
-                      <a class="btn btn-tw">
-                        <i class="fa fa-twitter"></i>
-                          Twitter
-                      </a>
+                      <a (click)="fbLogin()" class="btn btn-fb">
+                            <i class="fa fa-facebook"></i>
+                              Facebook
+                          </a>
+                      <a (click)="printUserInfo()" class="btn btn-tw">
+                            <i class="fa fa-twitter"></i>
+                              Twitter
+                          </a>
                     </div>
-                    <h4 class="text-center">
+                    <span class="text-center">
                       OU
-                    </h4>
+                    </span>
                     <div class="form-group">
-                      <a href="#!/login">
+                      <a href="login">
                         <button type="submit" class="btn btn-primary btn-block">
-                          FAÇA O LOGIN
+                          Entrar
                         </button>
                       </a>
                     </div>
                   </div>
                   <div class="bottom text-center">
-                    <h4>Não tem uma conta ?</h4>
+                    Não tem uma conta?
                     <a ng-click="vm.register()">
-                        <button type="submit" class="btn btn-primary btn-block">
-                          REGISTRE-SE
-                        </button>
-                        </a>
+                      <b id="lk-signup">
+                        Crie uma!
+                      </b>
+                    </a>
                   </div>
                 </div>
               </li>
