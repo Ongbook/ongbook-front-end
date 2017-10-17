@@ -5,10 +5,13 @@
   "main": "src/ongbook.js",
   "scripts": {
     "start": "./node_modules/.bin/node server.js",
+    "watch": "./node_modules/.bin/nodemon server.js",
     "build": "./node_modules/.bin/gulp *.js",
-    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly --recursive tests/**/*.js",
-    "report-coverage": "codecov",
-    "test": "./node_modules/.bin/mocha tests --recursive"
+    "coverage": "nyc npm test",
+    "coverage:lcov":"nyc --reporter=lcov --reporter=text-lcov npm test",
+    "coveralls": "npm run coverage:lcov && cat ./coverage/lcov.info | coveralls",
+    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls/coveralls",
+    "test": "mocha --recursive tests/**/*.js"
   },
   "keywords": [
     "ongbook",
@@ -21,7 +24,6 @@
     "angular-mocks": "^1.6.6",
     "babel-eslint": "^7.2.3",
     "chai": "^4.1.2",
-    "codecov": "^2.3.1",
     "connect": "^3.6.5",
     "coveralls": "^2.13.1",
     "eslint": "^4.6.1",
@@ -35,6 +37,7 @@
     "mocha": "^3.5.0",
     "mocha-lcov-reporter": "^1.3.0",
     "nodemon": "^1.12.1",
+    "nyc": "^11.2.1",
     "serve-static": "^1.13.1"
   },
   "dependencies": {
