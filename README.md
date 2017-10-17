@@ -13,57 +13,48 @@ seguir as boas práticas utilizadas no projeto e caso tenhas dúvida, abra uma i
 
 ### Pré requisitos
 
-É necessário ter instalado o [Node.JS](https://nodejs.org/en/) instalado na sua máquina.
+É necessário ter o [Node.JS](https://nodejs.org/en/) instalado na sua máquina.
 
 Caso tenha dúvidas para a instalação, [este artigo](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-debian-8) pode lhe ser útil.
 
 ### Instalação
 
-Para instalar o projeto em sua máquina, siga os passos abaixo:
+Para instalar o projeto em sua máquina, faça um fork do projeto e siga os passos abaixo:
 
 Crie uma pasta para o projeto e acesse ela:
 
 ```
-$ mkdir ongbook && cd ongbook
+$ git clone https://github.com/seu-usuario/ongbook-front-end.git
 ```
 
-Instale as dependências do projeto através do npm:
+Instale as dependências do projeto através do comando npm:
 
 ```
 $ npm install
 ```
 
-Para você rodar o projeto em um navegador basta utilizar:
+Para você rodar o projeto localmente basta utilizar o comando para iniciar o projeto:
 
 ```
 $ npm start
 ```
- Você pode alterar a porta conforme sua necessidade.
 
 ## Testes
 
-Para os testes unitários, estamos utilizando o [Mocha](https://mochajs.org), [Chai](http://chaijs.com/) e [Sinon](http://sinonjs.org/) com a metodologia do [TDD](https://pt.wikipedia.org/wiki/Test_Driven_Development).
+Para os testes, estamos utilizando o [Mocha](https://mochajs.org), [Chai](http://chaijs.com/) e [Sinon](http://sinonjs.org/).
 
-<!-- ### Para rodar os testes basta utilizar:
+### Para rodar os testes basta utilizar:
 
 ```
 $ npm test
-``` -->
+```
 
-<!-- ### And coding style tests
+### Cobertura de testes
 
-Explain what these tests test and why
+Cara conferir a cobertura de testes utilize o comando abaixo:
 
 ```
-Give an example
-``` -->
-
-## Deployment
-
-Para fazer o teste do projeto em modo de produção, com compressão e certificar de que tudo está ok:
-
-```
-$ npm prod
+$ npm run couverage
 ```
 
 ## Feito em

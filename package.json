@@ -6,11 +6,9 @@
   "scripts": {
     "start": "./node_modules/.bin/node server.js",
     "watch": "./node_modules/.bin/nodemon server.js",
-    "build": "./node_modules/.bin/gulp *.js",
     "coverage": "nyc npm test",
     "coverage:lcov":"nyc --reporter=lcov --reporter=text-lcov npm test",
     "coveralls": "npm run coverage:lcov && cat ./coverage/lcov.info | coveralls",
-    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls/coveralls",
     "test": "mocha --recursive tests/**/*.js"
   },
   "keywords": [
