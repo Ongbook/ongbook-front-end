@@ -2,6 +2,11 @@
 
 * Instalação das dependências
 
+# Começando
+## Dependências
+Ferramentas necessárias para rodar a aplicação:
+* `node` and `yarn`
+
 * Como rodar o projeto de acordo com o script no `package.json`
 
 * Como rodar os testes de acordo com o script no `package.json`
