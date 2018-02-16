@@ -3,13 +3,6 @@
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 # Ongbook
 
-Catálogo de entidades sociais com o objetivo de diminuir a distância entre entidades do terceiro setor e volutáriado.
-
-## Formas de colaboração
-
-Para contribuir com o front end da ongbook, é necessário ter os pré requisitos instalados, 
-seguir as boas práticas utilizadas no projeto e caso tenhas dúvida, abra uma issue :)
-
 ### Pré requisitos
 
 É necessário ter instalado o [Node.JS](https://nodejs.org/en/) instalado na sua máquina.
